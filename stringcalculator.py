@@ -10,7 +10,10 @@ def Add(data):
 	while(counter < strLen):
 		try:
 			aux = data[counter]
-			sum = sum + int(aux)
+			if aux == ";":
+				counter+=1
+			else:
+				sum = sum + int(aux)
 		except:
 			pass
 		counter+=1
