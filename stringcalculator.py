@@ -1,5 +1,5 @@
 
-import array as array
+
 
 def Add(data):
   	#Add implementation
@@ -16,6 +16,6 @@ def Add(data):
 				sum = sum + int(aux)
 		except:
 			pass
-			counter = counter + 1
+		counter = counter + 1
 	print(sum)
 	return sum
