@@ -11,11 +11,11 @@ def Add(data):
 		try:
 			aux = data[counter]
 			if aux == "-":
-				counter+=1
+				counter = counter + 1
 			else:
 				sum = sum + int(aux)
 		except:
 			pass
-			counter+=1
+			counter = counter + 1
 	print(sum)
 	return sum
