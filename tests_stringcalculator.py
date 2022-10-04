@@ -5,7 +5,7 @@ import stringcalculator
 class TestStringMethods(unittest.TestCase):
 
     def test_zero_args(self):
-        self.assertEqual(stringcalculator.Add("1,23;1,6;2"), 15)
+        self.assertEqual(stringcalculator.Add("23-5"), 5)
 
 
 if __name__ == '__main__':
