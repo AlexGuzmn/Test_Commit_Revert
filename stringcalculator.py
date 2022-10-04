@@ -7,15 +7,15 @@ def Add(data):
 	sum = 0
 	aux = " "
 	counter = 0
-	while(counter < strLen):
+	for i in range(strLen):
 		try:
-			aux = data[counter]
+			aux = data[i]
 			if aux == "-":
-				counter = counter + 1
+				i += 1
 			else:
 				sum = sum + int(aux)
 		except:
 			pass
-		counter = counter + 1
+		i += 1
 	print(sum)
 	return sum
