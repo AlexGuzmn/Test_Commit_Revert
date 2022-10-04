@@ -13,5 +13,6 @@ def Add(data):
 			sum = sum + int(aux)
 		except:
 			pass
+		counter+=1
 	print(sum)
 	return sum
