@@ -11,7 +11,7 @@ def Add(data):
 		try:
 			aux = data[counter]
 			if aux == ";":
-				counter+=1
+				pass
 			else:
 				sum = sum + int(aux)
 		except:
