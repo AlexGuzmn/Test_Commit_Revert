@@ -18,4 +18,4 @@ def Add(data):
 			pass
 		counter = counter + 1
 	print(sum)
-	return 0
+	return sum
