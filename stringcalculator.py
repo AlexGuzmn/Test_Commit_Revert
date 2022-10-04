@@ -5,7 +5,7 @@ def Add(data):
   	#Add implementation
 	strLen = len(data)
 	sum = 0
-	aux = ""
+	aux = " "
 	counter = 0
 	while(counter < strLen):
 		try:
