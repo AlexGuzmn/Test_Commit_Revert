@@ -1,6 +1,6 @@
 
 
 
-def Add(data):
+def Add(o):
   	#Add implementation
 	return 0
